@@ -1,0 +1,132 @@
+.header{
+    padding: .5em;
+} 
+
+.header .nav-user{
+    border: 2px solid var(--second-color);
+    width: 3em;
+    height: 3em;
+    border-radius: 50%; 
+    padding:0;
+}
+
+.header .nav-user .nav-link{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.header .nav-user:hover{
+    border-color:var(--primary-color);
+    transition: border-color .3s ease-in;
+}
+
+.header .nav-user .svg{
+    height: 100%;
+    width: 100%;
+    fill: var(--second-color);
+    border-radius: 50%; 
+}
+
+.header .nav-item .span{
+    bottom: -.5em;
+    transform: translate(-50%,4em);
+    min-width: 6em;
+    text-align: center;
+}
+
+.header .nav-item:hover > .nav-link .span{
+    transform: translate(-50%,2em);
+    opacity: 1;
+    visibility: visible;
+} 
+
+@media screen and (min-width:726px) {
+            
+    .header .nav{
+        margin-top: 3rem;
+    }
+    .header .nav-item .span{
+        top: 50%;
+        left: 3em;
+        transform: translate(2.5em,-50%);
+    }
+
+    .header .nav-item:hover > .nav-link .span{
+        transform: translate(.5em,-50%);
+        opacity: 1;
+        visibility: visible;
+    }   
+}
+
+.avatar{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-user.open{
+    border-color: var(--primary-color);
+}
+
+.avatar-conf{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(.0);
+    border-radius: 2px;
+    padding: .5em;
+    background-color: var(--bg-card-color);
+    width: 300px;
+    opacity: 0;
+    visibility: hidden;
+    transition:     transform .5s ease-in, 
+                    visibility .5s ease-in, 
+                    opacity .5s ease-in;
+    z-index: 100;
+}
+
+.avatar-conf.open{
+    transform: translate(-50%,-50%) scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+.avatar-conf .btn{
+    background-color: var(--bg-color);
+    width: 100%;
+}
+
+.avatar-conf .btn:hover{
+    background-color: var(--primary-color);
+}
+
+.shadow{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #00000099;
+    z-index: 9;
+    transform: scale(0);
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition:     transform .5s ease-in, 
+                    border-radius .5s ease-in, 
+                    visibility .5s ease-in, 
+                    opacity .5s ease-in;
+}
+
+.shadow.open{
+    transform: scale(100%);
+    border-radius: 0%;
+    opacity: 1;
+    visibility: visible;
+}
+.user-img{
+    border-radius: 50%;
+}

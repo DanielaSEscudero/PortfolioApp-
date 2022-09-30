@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+:root {
+  --html: #f4470b;
+  --css: #0066b6;
+  --js: #ead41c;
+  --sass: #c26191;
+  --bootstrap: #563f7b;
+  --slack: #f21756;
+  --git: #e44c30;
+  --github: #dee3eb;
+  --node: #86d624;
+  --react: #00cdf2;
+}
+.habilidades {
+  padding-top: 1rem;
+}
+
+.subtitle {
+  color:var(--primary-color);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.habilidades_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+.iconos-texto{
+  color: var(--text-second-color);
+}
+.tecnologias_grid {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-content: center;
+}
+.tecnologias_card {
+  min-height: 100px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.tecnologias_card:hover {
+  transform: scale(1.2);
+}
+.tecnologias_card i {
+  position: relative;
+}
+.tecnologias_card span {
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.habilidades-lista {
+  color: var(--text-second-color);
+  padding-top: 20px;
+  list-style: none;
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  margin-right: 3rem;
+}
+
+
+/* ----Colores tecnologias--- */
+.fa-html5 {
+  color: var(--html);
+  font-size: 4rem;
+}
+.fa-css3-alt {
+  color: var(--css);
+  font-size: 4rem;
+}
+.fa-js {
+  color: var(--js);
+  font-size: 4rem;
+}
+.fa-react {
+  color: var(--react);
+  font-size: 4rem;
+}
+.fa-node-js {
+  color: var(--node);
+  font-size: 4rem;
+}
+.fa-bootstrap {
+  color: var(--bootstrap);
+  font-size: 4rem;
+}
+.fa-slack {
+  color: var(--slack);
+  font-size: 4rem;
+}
+.fa-git {
+  color: var(--git);
+  font-size: 4rem;
+}
+.github {
+  color: var(--github);
+  font-size: 4rem;
+}
+.fa-sass {
+  color: var(--sass);
+  font-size: 4rem;
+}
+@media screen and (max-width: 990px) {
+  .tecnologias_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 858px) {
+  .habilidades_grid {
+    display: block;
+  }
+}

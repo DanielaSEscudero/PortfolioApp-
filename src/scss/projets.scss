@@ -90,18 +90,23 @@
 }
 
 @media screen and (max-width:990px){
-.project_grid{
-    grid-template-columns: repeat(2,1fr);
-    margin: 0px;
-    gap: 20px;
-}
-.project_item{
-    width: 100%;
-    margin-bottom: 10px;
-    margin: 0px;
-    max-height: 450px;
-    
-}
+    .project_grid{
+        grid-template-columns: repeat(2,1fr);
+        margin: 0px;
+        gap: 20px;
+    }
+    .project_item{
+        width: 100%;
+        margin-bottom: 10px;
+        margin: 0px;
+        max-height: 450px;
+        
+    }
+    .arrow {
+        position: absolute;
+        top: 50rem;
+        left: 50%;
+    }
 }
 
 @media screen and (max-width: 858px){
@@ -110,9 +115,6 @@
         margin: 0px;
         gap: 20px;
         padding: 0px;
-    }
-    .arrow {
-        display:none;
     }
     
     .project_info_title{

@@ -63,7 +63,7 @@ const ProjectsWeb = () => {
                     <div className="project_item">
                         <img src="https://i.ibb.co/zP6pwSY/Whats-App-Image-2022-10-03-at-12-41-52-PM.jpg" width="250"alt="app tareas" className="proyecto_img"/>
                         <div className="project_info">
-                            <h3 className="project_info_title">Kaizen Consultora</h3>
+                            <h3 className="project_info_title">KaizenConsultora</h3>
                             <p className="project_info_description">Wordpress</p>
                             <div className="project_btn_container">
                                 <Link className="btn_project" to="https://kaizenconsultora.com.ar/" target="_BLANK"

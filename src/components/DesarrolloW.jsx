@@ -25,11 +25,11 @@ const ProjectsWeb = () => {
                             <h3 className="project_info_title">Tienda Tola-Tola</h3>
                             <p className="project_info_description">HTML - CSS - JavaScript</p>
                             <div className="project_btn_container">
-                                <Link className="btn_project" to="https://danielasescudero.github.io/tiendaTola-Tola/index.html" target="_BLANK"
-                                    rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</Link>
-                                <Link className="btn_project" to="https://github.com/DanielaSEscudero/tiendaTola-Tola"
+                                <a className="btn_project" href="https://danielasescudero.github.io/tiendaTola-Tola/index.html" target="_BLANK" rel="noopener noreferrer">
+                    <i className="fas fa-external-link-alt"></i> Visitar</a>
+                                <a className="btn_project" href="https://github.com/DanielaSEscudero/tiendaTola-Tola"
                                     target="_BLANK" rel="noopener noreferrer"><i className="fab fa-github"></i >
-                                    Repositorio</Link>
+                                    Repositorio</a>
                             </div>
                         </div> 
                     </div>
@@ -40,8 +40,8 @@ const ProjectsWeb = () => {
                             <h3 className="project_info_title">Trish Digital</h3>
                             <p className="project_info_description">Wordpress</p>
                             <div className="project_btn_container">
-                                <Link className="btn_project" to="https://trishdigital.com.ar/" target="_BLANK"
-                                    rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</Link>
+                                <a className="btn_project" href="https://trishdigital.com.ar/" target="_BLANK"
+                                    rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</a>
                                 
                             </div>
                         </div> 
@@ -52,11 +52,11 @@ const ProjectsWeb = () => {
                             <h3 className="project_info_title">Saint Marie Cake</h3>
                             <p className="project_info_description">HTML - CSS - SASS</p>
                             <div className="project_btn_container">
-                                <Link className="btn_project" to="https://danielasescudero.github.io/tiendaTola-Tola/index.html" target="_BLANK"
-                                    rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</Link>
-                                <Link className="btn_project" to="https://github.com/DanielaSEscudero/tiendaTola-Tola"
+                                <a className="btn_project" href="https://danielasescudero.github.io/tiendaTola-Tola/index.html" target="_BLANK"
+                                    rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</a>
+                                <a className="btn_project" href="https://github.com/DanielaSEscudero/tiendaTola-Tola"
                                     target="_BLANK" rel="noopener noreferrer"><i className="fab fa-github"></i >
-                                    Repositorio</Link>
+                                    Repositorio</a>
                             </div>
                         </div> 
                     </div>
@@ -66,8 +66,8 @@ const ProjectsWeb = () => {
                             <h3 className="project_info_title">KaizenConsultora</h3>
                             <p className="project_info_description">Wordpress</p>
                             <div className="project_btn_container">
-                                <Link className="btn_project" to="https://kaizenconsultora.com.ar/" target="_BLANK"
-                                    rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</Link>
+                                <a className="btn_project" href="https://kaizenconsultora.com.ar/" target="_BLANK"
+                                    rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</a>
                             </div>
                         </div> 
                     </div>

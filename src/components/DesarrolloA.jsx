@@ -25,11 +25,11 @@ const ProjectsApp = () => {
                             <h3 className="proyecto_info_title">A Gourmet App</h3>
                             <p className="proyecto_info_description">React JS - Redux - context</p>
                             <div className="proyecto_btn_container">
-                                <Link className="btn_proyecto" href="https://agranelapp.netlify.app/" target="_BLANK"
-                                    rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</Link>
-                                <Link className="btn_proyecto" href="https://github.com/DanielaSEscudero/A-Granel-App"
+                                <a className="btn_proyecto" href="https://agranelapp.netlify.app/" target="_BLANK"
+                                    rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</a>
+                                <a className="btn_proyecto" href="https://github.com/DanielaSEscudero/A-Granel-App"
                                     target="_BLANK" rel="noopener noreferrer"><i className="fab fa-github"></i >
-                                    Repositorio</Link>
+                                    Repositorio</a>
                             </div>
                         </div> 
 
@@ -41,11 +41,11 @@ const ProjectsApp = () => {
                         <h3 className="proyecto_info_title">Tienda disco</h3>
                         <p className="proyecto_info_description">React JS - Firebase - Context</p>
                         <div className="proyecto_btn_container">
-                            <Link className="btn_proyecto" href="https://tiendadisco.netlify.app/" target="_BLANK"
-                                rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</Link>
-                            <Link className="btn_proyecto" href="https://github.com/DanielaSEscudero/ReactJS_Coderhouse"
+                            <a className="btn_proyecto" href="https://tiendadisco.netlify.app/" target="_BLANK"
+                                rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</a>
+                            <a className="btn_proyecto" href="https://github.com/DanielaSEscudero/ReactJS_Coderhouse"
                                 target="_BLANK" rel="noopener noreferrer"><i className="fab fa-github"></i>
-                                Repositorio</Link>
+                                Repositorio</a>
                         </div>
                     </div>
                     

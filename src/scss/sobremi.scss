@@ -8,38 +8,39 @@
   gap: 20px;
   font-size: 1.5rem;
   color: var(--text-primary-color);
+  margin-bottom: 3rem;
 }
 .sobre-mi_title{
   color: var(--primary-color) !important;
+  text-align: center;
+  font-size: 2.5rem;
 }
 .sobre-mi_img {
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
   img {
-    width: 80%;
+    width: 70%;
     height: 80%;
     border-radius: 50%;
   }
 }
 
 .descripcion_text {
-  padding-top: 20px;
   font-family: "Georama", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--text-second-color);
 }
 
 .btn-cv {
   text-decoration: none;
-  background: var(--main-color);
   padding: 10px 30px;
-  color: #000;
+  color: var(--primary-color);
   font-weight: bold;
   font-size: 1rem;
   border-radius: 10px;
   box-shadow: 1px 1px 6px;
-  margin: 20px;
+  margin: 10px;
   transition: 0.4s;
   display: inline-block;
   text-align: center;
@@ -48,15 +49,18 @@
     font-size: 1.25rem;
   }
   &:hover {
-    background: var(--secondary-color);
     cursor: pointer;
     color: var(--white-color);
   }
 }
 
 @media screen and (max-width: 858px) {
+  .sobre-mi{
+    margin-right: 0;
+  }
   .sobre-mi_grid {
     display: block;
+    margin:0;
   }
   .sobre-mi_img img {
     width: 60%;
@@ -67,4 +71,13 @@
     margin: 20px auto;
     display: block;
   }
+  .descripcion_text {
+  text-align: center;
+
+  }
+  .sobre-mi_descripcion{
+    text-align: center;
+    margin:0;
+  }
 }
+

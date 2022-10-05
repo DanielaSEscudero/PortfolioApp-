@@ -10,22 +10,28 @@
   --github: #dee3eb;
   --node: #86d624;
   --react: #00cdf2;
+  --php:#7377ad;
+  --sql:#f6ad00;
+  --figma:#a800f7;
+
 }
 .habilidades {
   padding-top: 1rem;
+  margin-bottom: 7.5rem;
 }
 
 .subtitle {
   color:var(--primary-color);
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 .habilidades_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 .iconos-texto{
   color: var(--text-second-color);
@@ -110,6 +116,19 @@
   color: var(--sass);
   font-size: 4rem;
 }
+.bi-filetype-sql{
+  font-size: 4rem;
+  color: var(--sql);
+}
+.fa-php{
+  font-size: 4rem;
+  color: var(--php);
+}
+.fa-figma{
+  font-size: 3.7rem;
+  color: var(--figma);
+}
+
 @media screen and (max-width: 990px) {
   .tecnologias_grid {
     grid-template-columns: repeat(2, 1fr);
@@ -118,5 +137,10 @@
 @media screen and (max-width: 858px) {
   .habilidades_grid {
     display: block;
+    margin: 0;
+  }
+  .habilidades-lista{
+    text-align: center;
+    margin-right: 0;
   }
 }

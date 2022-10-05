@@ -6,8 +6,10 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Sobremi from "./pages/SobreMi";
 import Habilidades from "./pages/Habilidades";
-import Proyectos from "./pages/Proyectos";
+import Projects from "./pages/Projects";
 import Home from "./pages/Home";
+import ProjectsWeb from "./components/DesarrolloW.jsx";
+import ProjectsApp from "./components/DesarrolloA.jsx";
 
 import { LanguageProvider } from "./context/LanguageContext";
 
@@ -23,7 +25,9 @@ function App() {
             <Route exact path="/" element={<Home/>} ></Route>
             <Route exact path="/sobremi/" element={ <Sobremi />} ></Route>
             <Route exact path="/habilidades/" element={<Habilidades/>}></Route>
-            <Route exact path="/proyectos/" element={<Proyectos/>}></Route>
+            <Route exact path="/proyectos/" element={<Projects/>}></Route>
+            <Route exact path="/proweb/" element={<ProjectsWeb/>}></Route>
+            <Route exact path="/proapp/" element={<ProjectsApp/>}></Route>
           </Routes>  
         </main>
         <Footer />

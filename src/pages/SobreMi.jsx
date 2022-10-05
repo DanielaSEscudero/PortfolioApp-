@@ -17,17 +17,18 @@ const Sobremi = () => {
                     <img src="https://firebasestorage.googleapis.com/v0/b/tienda-app-827a6.appspot.com/o/image1foto%20perfil.png?alt=media&token=c020d98e-f02e-4eca-8143-5dc7f25b593b" width="500" alt="fotoPerfil" id="fotoPerfil"/>
                 </div>
                 <div className="sobre-mi_descripcion">
-                    <h3><span className='span'>{texts.aboutMe.placeholder}</span></h3>
+                    <h3><span className='span'>{texts.aboutMe.placeholder}</span>
+                        <span className='span'>{texts.aboutMe.placeholder1}</span>
+                        <span className='span'>{texts.aboutMe.placeholder2}</span>
+                    </h3>
                     <p className="descripcion_text">
-                        <span className='span'>{texts.aboutMe.linea1}</span><br/>
-                        <span className='span'>{texts.aboutMe.line2}</span><br/>
-                        <span className='span'>{texts.aboutMe.line3}</span><br/>
-                        <span className='span'>{texts.aboutMe.line4}</span><br/>
-                        <span className='span'>{texts.aboutMe.line5}</span>
+                        <span className='span'>{texts.aboutMe.line1}</span>
+                        <span className='span'>{texts.aboutMe.line2}</span>
+                        <span className='span'>{texts.aboutMe.line3}</span>
                     </p>
-                    <a className="btn-cv" href="https://firebasestorage.googleapis.com/v0/b/tienda-app-827a6.appspot.com/o/cv%20Daniela%20S%20Escudero.pdf?alt=media&token=af293ac0-0863-48c3-bb18-3366eb4971d6" rel="noopener noreferrer"
-                        target="_blank" id="btmCv"><i class="fas fa-file-download"></i><span className='span'>{texts.aboutMe.btn}</span></a>
-
+                    <a className="btn-cv" href={texts.aboutMe.cv} rel="noopener noreferrer"
+                        target="_blank" id="btmCv"><i className="fas fa-file-download"></i><span className='span'>{texts.aboutMe.btn}</span></a>
+                    
                 </div>
             </div> 
         </div>

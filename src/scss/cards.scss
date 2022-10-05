@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300;400&display=swap');
+
+.proyecto_grid{
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  align-content: center;
+  margin:7rem 10rem 15rem;
+
+}
+.proyectos_title{
+  color: var(--primary-color) !important;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.proyecto_item{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border-radius: 10px;
+  max-height: 300px;
+  overflow: hidden;
+  
+}
+.proyecto_img{
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 1s;
+  object-position: top;
+  width: 100%;
+  
+}
+.proyecto_info{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-around;
+  background-color: #50f0ffc0;
+  border-radius: 10px;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  top: 300px;
+  transition: all 0.5s;
+  padding: 5px;
+  
+}
+
+.proyecto_info_title{
+  margin: 30px;
+  font-size: 2.8rem;
+  color: var(--text-primary-color);
+  font-weight:bold;
+  text-align: center;
+  filter: drop-shadow(0 0 5px #50f0ff);
+  
+}
+
+.proyecto_info_description{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--bg-card-color);
+}
+.proyecto_btn_container{
+display: flex;
+justify-content: space-between;
+width: 80%;
+/* padding-top: 30px; */
+}
+.btn_proyecto{
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--second-color);
+  background-color: var(--text-primary-color);
+  display: block;
+  padding: 7px;
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.proyecto_item:hover > .proyecto_info{
+  transform:translateY(-300px) ;
+}
+.proyecto_item:hover > img {
+  transform: scale(1.2);
+}
+.btn_proyecto:hover{
+  transform: scale(1.2);
+  color: #113d41;
+}
+
+@media screen and (max-width:990px){
+  .proyecto_grid{
+      grid-template-columns: repeat(2,1fr);
+      margin: 0px;
+      gap: 20px;
+      overflow:auto;
+  }
+  .proyecto_item{
+      width: 100%;
+      margin-bottom: 10px;
+      margin: 0px;
+      max-height: 500px;
+      
+  }
+}
+
+@media screen and (max-width: 858px){
+  .proyecto_grid{
+      grid-template-columns: 1fr;
+      margin: 0px;
+      gap: 20px;
+      padding: 0px;
+  }
+
+
+}

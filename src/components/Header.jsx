@@ -45,7 +45,7 @@ function Header () {
                     </li>
                 </ul>   
                 <div className='nav-item nav-user'>
-                <img className='user-img' src="https://firebasestorage.googleapis.com/v0/b/tienda-app-827a6.appspot.com/o/image1foto%20perfil.png?alt=media&token=c020d98e-f02e-4eca-8143-5dc7f25b593b" width="44" alt="fotoPerfil" id="fotoPerfil"/>
+                <img className='user-img' src="https://firebasestorage.googleapis.com/v0/b/tienda-app-827a6.appspot.com/o/image1foto%20perfil.png?alt=media&token=c020d98e-f02e-4eca-8143-5dc7f25b593b" width="45" alt="fotoPerfil" id="fotoPerfil"/>
 
             </div>
             </nav>

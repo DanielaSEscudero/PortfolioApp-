@@ -23,15 +23,21 @@ const Inicio = () => {
               
     
               <div className='home__text-container'>
+                <div className="wrapper">
+                    <div className="typing-demo">
+                    <span className='line-text' >{texts.home.line1}</span>
+                    </div>
+                </div>
                 <p className='home__text'>
-                  <span className='home__line-text'>{texts.home.line1}</span>
                   <span className='home__line-text'>{texts.home.line2}</span>
                   <span className='home__line-text'>{texts.home.line3}</span>
                   <span className='home__line-text'>{texts.home.line4}</span>
+                  <span className='home__line-text'>{texts.home.line5}</span>
                 </p>
               </div>
 
-                <button onClick={handleLanguage} className='language-btn'>{texts.home["language-btn"]}
+                <button onClick={handleLanguage} className='language-btn'>
+                <span className='span'>{texts.home["language-btn"]}</span>
                 </button>
             </div>
         </div>

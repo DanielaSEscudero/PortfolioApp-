@@ -19,6 +19,7 @@ body{
     background-color: var(--bg-color);
     color: var(--text-second-color);
     font-family: sans-serif;
+
 }
 
 ul{
@@ -27,12 +28,6 @@ ul{
     padding: 0;
 }
 
-.title{
-    font-size: 1.5em;
-    color: var(--primary-color);
-    margin: 0;
-    padding: 1em;
-}
 
 .navbar{
     background-color: var(--bg-card-color);
@@ -105,7 +100,6 @@ ul{
     .navbar{
         flex-direction: column;
         height: calc(100vh - 1em);
-
     }
 
     .header .navbar,
@@ -125,21 +119,4 @@ ul{
         top: 0px;
     }
 }
-
-/*.btn{
-    padding: .8em;
-    background-color: var(--bg-card-color);
-    border: none;
-    font-weight: bolder;
-    color: var(--bg-card-color);
-    cursor: pointer;
-    border-radius: 2px;
-    outline-color: var(--primary-color);
-    transition: background-color .3s ease-in, color .3s ease-in;
-}
-
-.btn:hover{
-    background-color: --primary-color;
-}*/
-
 

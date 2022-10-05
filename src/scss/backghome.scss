@@ -47,3 +47,10 @@ transform: translate($random-x-end-yoyo, 100vh) scale($random-scale);
 }
 }
 }
+
+
+@media screen and (max-width:726px){
+    body{
+        overflow: scroll;
+    }
+}

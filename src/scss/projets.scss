@@ -103,9 +103,7 @@
         
     }
     .arrow {
-        position: absolute;
-        top: 50rem;
-        left: 50%;
+        display: none;
     }
 }
 
@@ -123,9 +121,9 @@
     }
 }
 
-  .arrow {
+.arrow {
     position: absolute;
-    top: 42rem;
+    top: 88%;
     left: 50%;
     transform: translate(-50%, -50%);
     transform: rotate(90deg);

@@ -28,7 +28,7 @@ const ProjectsWeb = () => {
                                 <Link className="btn_project" to="https://danielasescudero.github.io/tiendaTola-Tola/index.html" target="_BLANK"
                                     rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</Link>
                                 <Link className="btn_project" to="https://github.com/DanielaSEscudero/tiendaTola-Tola"
-                                    target="_BLANK" rel="noopener noreferrer"><i clclassNameass="fab fa-github"></i >
+                                    target="_BLANK" rel="noopener noreferrer"><i className="fab fa-github"></i >
                                     Repositorio</Link>
                             </div>
                         </div> 
@@ -67,7 +67,7 @@ const ProjectsWeb = () => {
                             <p className="project_info_description">Wordpress</p>
                             <div className="project_btn_container">
                                 <Link className="btn_project" to="https://kaizenconsultora.com.ar/" target="_BLANK"
-                                    rel="noopener noreferrer"><i claclassNamess="fas fa-external-link-alt"></i> Visitar</Link>
+                                    rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</Link>
                             </div>
                         </div> 
                     </div>

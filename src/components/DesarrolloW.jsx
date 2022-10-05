@@ -52,9 +52,9 @@ const ProjectsWeb = () => {
                             <h3 className="project_info_title">Saint Marie Cake</h3>
                             <p className="project_info_description">HTML - CSS - SASS</p>
                             <div className="project_btn_container">
-                                <a className="btn_project" href="https://danielasescudero.github.io/tiendaTola-Tola/index.html" target="_BLANK"
+                                <a className="btn_project" href="https://danielasescudero.github.io/Saint-Marie-Cake/" target="_BLANK"
                                     rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> Visitar</a>
-                                <a className="btn_project" href="https://github.com/DanielaSEscudero/tiendaTola-Tola"
+                                <a className="btn_project" href="https://github.com/DanielaSEscudero/Saint-Marie-Cake"
                                     target="_BLANK" rel="noopener noreferrer"><i className="fab fa-github"></i >
                                     Repositorio</a>
                             </div>

@@ -91,3 +91,10 @@
         visibility: visible;
     }
 }
+
+@media screen and (max-width:726px){
+    .copyright{
+        width: 100%;
+        justify-content:center;
+    }
+}

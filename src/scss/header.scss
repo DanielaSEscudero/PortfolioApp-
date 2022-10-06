@@ -51,7 +51,11 @@
         left: 3em;
         transform: translate(2.5em,-50%);
     }
-
+    .header .nav-item:hover > .nav-link .span{
+        transform: translate(.5em,-50%);
+        opacity: 1;
+        visibility: visible;
+    }   
     
 }
 
